@@ -1,0 +1,20 @@
+@prefix neo4voc: <http://neo4j.org/vocab/sw#> .
+@prefix neo4ind: <http://neo4j.org/ind#> .
+
+neo4ind:UnrealEngine neo4voc:name "Unreal Engine" ;
+			   a neo4voc:Term ;
+			   neo4voc:Author "Angie Peng" ;
+			   neo4voc:revisionDate "03-06-2019" ;
+			   neo4voc:hasNarrowerConcept neo4ind:AbsorptionScale .
+
+neo4ind:AbsorptionScale neo4voc:name "Absorption Scale" ;
+			   a neo4voc:Term ;
+			   neo4voc:Author "Angie Peng" ;
+			   neo4voc:revisionDate "05-31-2019" ;			   
+			   neo4voc:hasBroaderConcept neo4ind:UnrealEngine .
+
+neo4ind:AIDebugging neo4voc:name "AI Debugging" ;
+			   a neo4voc:Term ;
+			   neo4voc:Author "Angie Peng" ;
+			   neo4voc:revisionDate "05-31-2019" ;			   
+			   neo4voc:hasBroaderConcept neo4ind:UnrealEngine .
